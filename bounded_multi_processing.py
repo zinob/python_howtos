@@ -17,7 +17,7 @@ import time
 try:
     from tqdm import tqdm
 except:
-    tqdm=lambda x:x:
+    tqdm=lambda x,*_,**__:x
 import random
 
 def ini(y):
