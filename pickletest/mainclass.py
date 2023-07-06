@@ -1,3 +1,4 @@
+#!/bin/env python3
 import pickle
 import data_class
 import sys
